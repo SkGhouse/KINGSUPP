@@ -111,14 +111,6 @@ devils-music/
 - API endpoints can be configured in `server/routes/`
 - Database models can be updated in `server/models/`
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -154,4 +146,4 @@ A mobile version of this application is currently in development. Stay tuned for
 
 ---
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [GHOUSEE...]
