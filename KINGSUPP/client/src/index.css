@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1A0000;
+  color: white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2A1A1A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF3333;
+}
+
+/* Devilish hover effects */
+.hover-devildark:hover {
+  background-color: #2A1A1A;
+  transition: all 0.3s ease;
+}
+
+.hover-devilred:hover {
+  color: #FF0000;
+  transition: all 0.3s ease;
+}
+
+/* Glowing effect for buttons */
+.glow-effect {
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+.glow-effect:hover {
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+} 
